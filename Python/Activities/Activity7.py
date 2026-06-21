@@ -1,9 +1,9 @@
 
-listitems = input("Enter list items separated by spaces: ").split(" ")
+listitems = input("Enter a sequence of comma separated values: ").split(", ")
 
-listitems=[int(x) for x in listitems]
+sum=0
+for number in listitems:
+  sum += int(number)
+	
+print("Sum of Numbers is: " + str(sum))
 
-print("Given List: " + str(listitems))
-
-total = sum(listitems)
-print("Sum of Numbers is: " + str(total))
