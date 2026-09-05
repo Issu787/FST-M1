@@ -1,0 +1,15 @@
+package Activities;
+
+import org.testng.annotations.Test;
+
+public class Activity4_DemoOne {
+	@Test(groups = {"HeaderTests"})
+    public void firstTestCase() {
+        System.out.println("I am in first test case from demoOne Class");
+    }
+
+    @Test(groups = {"HeaderTests"})
+    public void secondTestCase() {
+        System.out.println("I am in second test case from demoOne Class");
+    }
+}
